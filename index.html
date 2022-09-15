@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="query.css">
 </head>
 <body>
     <section>
@@ -59,15 +60,30 @@
                 <h1>Gallery</h1>
                 <p>Have a look at a collection of my recent works.</p>
             </div>
+            <div class="mobile-img-cont">
+                <svg id="left" width="10" height="17" viewBox="0 0 10 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.09717 0L10 1.9975L3.81916 8.5L10 15.0025L8.09717 17L2.0102e-07 8.5L8.09717 0Z" fill="#404040"/>
+                    </svg>
+                    
+                 
+                <div class="mobile-img">
+                    <div class="show"><img class="img-con" src="images/pic 1.png" alt=""></div>
+                </div>
+
+                <svg id="right" width="10" height="17" viewBox="0 0 10 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.90283 0L0 1.9975L6.18084 8.5L0 15.0025L1.90283 17L10 8.5L1.90283 0Z" fill="#404040"/>
+                    </svg>
+                    
+            </div>
+
+
             <div class="images-cont">
-                <div class="images"><img class="img-con" src="images/pic 1.png" alt=""></div>
+                <div class="images show"><img class="img-con" src="images/pic 1.png" alt=""></div>
                 <div class="images"><img class="img-con" src="images/pic 6.png" alt=""></div>
                 <div class="images"><img class="img-con" src="images/pic 2.png" alt=""></div>
-                <div class="images-cont">
-                    <div class="images"><img class="img-con" src="images/pic 5.png" alt=""></div>
-                    <div class="images"><img class="img-con" src="images/pic 3.png" alt=""></div>
-                    <div class="images"><img class="img-con" src="images/pic 4.png" alt=""></div>
-                </div>
+                <div class="images"><img class="img-con" src="images/pic 5.png" alt=""></div>
+                <div class="images"><img class="img-con" src="images/pic 3.png" alt=""></div>
+                <div class="images"><img class="img-con" src="images/pic 4.png" alt=""></div>
             </div>
             <div class="view-all-cont">     
                 <button>
@@ -106,15 +122,14 @@
                 </div>
                 <div class="second-half">
                     <form>
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name"> <br><br>
-                        <label for="email">Email</label>
-                        <input type="text" id="email" name="email"> <br><br>
-                        <label for="subject">Subject</label>
-                        <input type="text" id="subject" name="subject"> <br><br>
-                        <label for="message">Message</label>
-                        <input type="text" id="message" name="message"> <br><br>
-                        <!-- <input type="submit" value="Send Message"> -->
+                        <label for="name">Name</label><br>
+                        <input type="text" id="name" name="name"> <br>
+                        <label for="email">Email</label><br>
+                        <input type="text" id="email" name="email"> <br>
+                        <label for="subject">Subject</label><br>
+                        <input type="text" id="subject" name="subject"> <br>
+                        <label for="message">Message</label><br>
+                        <input type="text" id="message" name="message"> <br>
                     </form>
                     <div class="second-half-btn-cont">
                         <button><a class="second-half-btn" href="#">Send Message</a></button>
@@ -134,6 +149,7 @@
                 <div class="soc"><img src="images/Group 2.png" alt=""></div>
                 <div class="soc"><img src="images/Vector.png" alt=""></div>
             </div>
+            &#169; Developed with love by Oluwamodupe Deborah.
         </footer>
     </section>
 </body>

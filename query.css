@@ -1,0 +1,84 @@
+/*big tablet to 1200px (width smaller than the 1140px row) */
+@media only screen and (max-width:1200px) {
+
+}
+
+/*small tablet to big tablet (768px to 1023px) */
+@media only screen and (max-width:1023px) {
+    
+}
+
+/*small phone to small tablet (481px to 767px) */
+@media only screen and (max-width:767px) {
+    .first-sec-cont{
+        background-image: url(images/james-barr-zy5JTdcC0fE-unsplash\ 2.png);
+        background-size: cover;
+        background-position: top;
+        height: 896px;
+    }
+    .nav-cont {display: none;}
+    .sec-2-cont h1{
+        font-size: 24px;
+        line-height: 29px;
+        color: #F2F2F2;
+    }
+    .sec-2-cont p{
+        font-size: 12px;
+        line-height: 18px;
+        color: #F2F2F2;
+    }
+    .social-cont{display: none;}
+    .sec-cont{
+        padding-top: 550px;
+    }
+    .blk-text h1{
+        font-size: 20px;
+        line-height: 21px;
+        padding: 0;
+    }
+    .blk-text p{
+        font-size: 9px;
+        line-height: 14px;
+    }
+    .second-sec-cont{width: 100%; }
+    .blk-img-cont{width: 35%; padding-top: 3rem; padding-left: 1rem;}
+    .col-cont h1{
+        font-size: 20px;
+        line-height: 21px;
+        padding-top: 3rem;
+    }
+    .col-cont p{font-size: 10px; line-height: 21px;}
+    .images-cont {display: none ;}
+    .mobile-img-cont{display: block;}
+    .mobile-img{width: 60%; margin: auto;}
+    .show{width: 100%;}   
+    #left{position: absolute;
+        width: 10px;
+        height: 17px;
+        left: calc(50% - 10px/2 - 172px);
+        top: 1691px;
+    }
+    #right{position: absolute;
+        width: 10px;
+        height: 17px;
+        left: calc(50% - 10px/2 + 182px);
+        top: 1691px;
+    }
+    .autri-cont{display: none;}
+    .second-half{width: 100%;}
+    input[type=text]{width: 100%;}
+    .second-half-btn{padding: 0;}
+    .second-half-btn-cont{
+        margin-left: 0.8rem;
+        margin-top: 0;
+    }
+    .soc-cont{
+        width: 35%;
+        align-items: center;
+    }
+}
+
+/*small phones (0px to 480px) */
+@media only screen and (max-width:480px) {
+    
+}
